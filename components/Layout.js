@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import Header from '../sections/Header';
-import Footer from '../sections/Footer';
-import Hero from '../sections/Hero';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
+import Hero from '../pages/Hero';
 
 const Layout = ({ children }) => {
     return (

@@ -1,12 +1,13 @@
-import Hero from "../sections/Hero";
+import Hero from "./Hero";
 import React from "react";
 import ContactBox from "../components/ContactBox";
 import Description from "../components/Description";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="flex gap-6 pb-10">
+      <div className="lg:flex gap-6 pb-10">
         <Hero />
         <ContactBox />
       </div>
