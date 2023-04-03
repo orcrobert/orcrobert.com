@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Deep Work</title>
+                <title>Orban Robert</title>
             </Head>
             <div className="min-h-screen flex flex-col">
                 <Header />

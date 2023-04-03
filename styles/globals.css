@@ -9,4 +9,7 @@
     body {
         @apply max-w-2xl mx-auto px-1
     }
+    ::selection {
+        color: orangered;
+    }
 }

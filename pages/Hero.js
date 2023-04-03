@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="h-auto w-96 p-4 absolute inset-0 bg-pink-400 dark:bg-purple-800 
             blur-xl transition ease-in-out hover:delay-75 group-hover:blur-3xl group-hover:scale-105"></div>
             <div className="rounded-lg h-auto w-96 p-4 bg-gray-200 dark:bg-zinc-800 shadow-md relative
-             hover:transition hover:ease-in-out hover:delay-75 hover:scale-105">
+             hover:transition hover:ease-in-out hover:delay-75 hover:scale-105 dark:text-zinc-100">
                 <div className="flex">
                     {Badgecolor()}
                     <div className="pt-1">
