@@ -12,7 +12,7 @@ const Header = () => {
         setMounted(true);
     }, []);
 
-    const renderThemeChanger = () =>{
+    const renderThemeChanger = () => {
 
         if(!mounted)
             return null;
@@ -21,7 +21,8 @@ const Header = () => {
 
         if (currTheme === 'light'){       
             return (
-                <Button className={"bg-gray-200 shadow-sm opacity-75"} onClick={() => setTheme('dark')}>
+                <Button className={"bg-gray-200 shadow-sm opacity-75"} onClick={() => setTheme('dark')}
+                    id="theme-changer">
                     <motion.svg whileHover={{
                         position: 'relative',
                         zIndex: 1,
@@ -39,7 +40,8 @@ const Header = () => {
         }
         else{
             return (
-                <Button className={"dark:bg-zinc-800 shadow-sm opacity-75"} onClick={() => setTheme('light')}>
+                <Button className={"dark:bg-zinc-800 shadow-sm opacity-75"} onClick={() => setTheme('light')}
+                    id="theme-changer">
                     <motion.svg whileHover={{
                         position: 'relative',
                         zIndex: 1,
@@ -59,8 +61,8 @@ const Header = () => {
     return ( 
         <header className="h-16 flex items-center justify-between">
             <ul className="flex gap-4">
-                <Link href="/" className="font-semibold">Home</Link>
-                <Link href="projects" className="font-semibold">Projects</Link>
+                <li><Link href="/" className="font-semibold">Home</Link></li>
+                <li><Link href="projects" className="font-semibold">Projects</Link></li>
             </ul>
             {renderThemeChanger()}
         </header>

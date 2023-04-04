@@ -16,6 +16,8 @@ const Projects = () =>{
                 <Project title={"This Website 🚀"} image={"https://i.imgur.com/qpn5xXh.png"}
                     description={"My minimalistic and modern corner of the internet."}
                     name={"pwebsite"} />
+                <Project title={"MBTI Quiz💅"} image={"https://i.imgur.com/4dMApki.png"} name={"mbti"}
+                    description={"Find which of the 16 personalities are you!"}/>
             </div>
         </div>
     )

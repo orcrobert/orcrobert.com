@@ -1,5 +1,6 @@
 import styles from './Description.module.css'
 import React from 'react';
+import { CodeBlock, dracula } from 'react-code-blocks';
 const Description = () => {
     return(
         <>
@@ -7,7 +8,8 @@ const Description = () => {
                 <div className="flex">
                     <h1 class="animate-text bg-gradient-to-r
                     from-teal-500 via-purple-500 to-orange-500 
-                    bg-clip-text text-transparent text-6xl font-extrabold antialiased">
+                    bg-clip-text text-transparent text-6xl font-extrabold antialiased
+                    drop-shadow-lg shadow-transparent">
                         Hello There<br/>Traveler!
                     </h1>
                 </div>
