@@ -1,17 +1,22 @@
-import Hero from "./Hero";
-import React from "react";
-import ContactBox from "../components/ContactBox";
-import Description from "../components/Description";
-import Link from "next/link";
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import styles from '@/styles/Home.module.css'
+import { Button, ChakraProvider, Center, ThemeProvider, Text, theme, Container } from '@chakra-ui/react'
+import Layout from '@/components/layout/layout'
+import Navbar from '../components/navbar'
+import WCard from '@/components/card'
+
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-      <div className="lg:flex gap-6 pb-10">
-        <Hero />
-        <ContactBox />
-      </div>
-      <Description />
-    </>
+    <>  
+        <Container width={"100"}> 
+        <Navbar/>
+        <WCard />
+        </Container>
+  </>
   )
 }

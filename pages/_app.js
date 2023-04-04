@@ -1,14 +1,16 @@
-import { ThemeProvider } from 'next-themes';
-import React from 'react';
-import Layout from '../components/Layout'
-import '../styles/globals.css'
+import '@/styles/globals.css'
+import { ThemeProvider, theme, ColorModeProvider, CSSReset, ChakraProvider } from '@chakra-ui/react'
+import { useState } from 'react'
 
 export default function App({ Component, pageProps }) {
-    return (
-        <ThemeProvider attribute='class'>
-            <Layout>
-                <Component {...pageProps} />
-            </Layout>
-        </ThemeProvider>
-    );
+  return (
+    <ChakraProvider theme={theme} cssVarsRoot="body">
+      <ThemeProvider theme={theme}> 
+        <ColorModeProvider>
+          <CSSReset />
+          <Component {...pageProps} />
+        </ColorModeProvider>
+      </ThemeProvider>
+    </ChakraProvider>
+  )
 }
