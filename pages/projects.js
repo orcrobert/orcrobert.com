@@ -15,9 +15,20 @@ const Projects = () =>{
                  />
                 <Project title={"This Website 🚀"} image={"https://i.imgur.com/qpn5xXh.png"}
                     description={"My minimalistic and modern corner of the internet."}
-                    name={"pwebsite"} />
-                <Project title={"MBTI Quiz💅"} image={"https://i.imgur.com/4dMApki.png"} name={"mbti"}
-                    description={"Find which of the 16 personalities are you!"}/>
+                    name={"pwebsite"} 
+                    link={"https://github.com/CyberNinjaH/portifolio-website"}/>
+                <Project title={"Tic-Tac-Toe ⚔️"} image={"https://i.imgur.com/yABFvDA.png"} 
+                    name={"xo"}
+                    description={"A simple CLI game of X and 0."}
+                    link={"https://github.com/CyberNinjaH/tic-tac-toe"}/>
+                <Project title={"Keylogger 👾"} image={"https://i.imgur.com/qbqBmiV.png"} 
+                    name={"keylog"}
+                    description={"Keylogger that sends you email reports of what the other person is typing!"}
+                    link={"https://github.com/CyberNinjaH/keylogger"}/>
+                <Project title={"Snake Game 🐍"} image={"https://i.imgur.com/JQkDrLn.png"} 
+                    name={"snake"}
+                    description={"The classic snake game written in python."}
+                    link={"https://github.com/CyberNinjaH/snake-game"}/>
             </div>
         </div>
     )

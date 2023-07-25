@@ -33,6 +33,20 @@ const Logo = ({ name }) => {
                 </div>
             )
         }
+        else if (name == "xo"){
+            return (
+                <div className="invisible sm:visible absolute left-56 top-28 grid grid-cols-5 gap-2">
+                    <img className="w-5 h-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/612px-ISO_C%2B%2B_Logo.svg.png?20170928190710"></img>
+                </div>
+            )
+        }
+        else if (name == "keylog" || name == "snake"){
+            return (
+                <div className="invisible sm:visible absolute left-56 top-28 grid grid-cols-5 gap-2">
+                    <img className="w-6 h-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png?20220821155029"></img>
+                </div>
+            )
+        }
     }
     return (
         <div className="grid grid-cols-2 gap 6 rounded-lg">
