@@ -2,6 +2,7 @@ import { Avatar, Badge, theme } from "@nextui-org/react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import {Button} from "@nextui-org/react";
+
 const Hero = () => {
     const { systemTheme, theme, setTheme } = useTheme();
     const currTheme = theme === 'system' ? systemTheme : theme;

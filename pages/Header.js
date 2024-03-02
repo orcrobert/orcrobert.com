@@ -63,6 +63,7 @@ const Header = () => {
             <ul className="flex gap-4">
                 <li><Link href="/" className="font-semibold">Home</Link></li>
                 <li><Link href="projects" className="font-semibold">Projects</Link></li>
+                <li><Link href="/" className="font-semibold">About</Link></li>
             </ul>
             {renderThemeChanger()}
         </header>
