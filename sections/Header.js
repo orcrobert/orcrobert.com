@@ -57,13 +57,16 @@ const Header = () => {
         }
     }
     return ( 
-        <header className="h-16 flex items-center justify-between">
-            <ul className="flex gap-4">
-                <Link href="/" className="font-semibold ">Home</Link>
-                <Link href="/" className="font-semibold ">Projects</Link>
-            </ul>
-            {renderThemeChanger()}
-        </header>
+        <nav className="h-16  items-center sticky justify-between w-full bg-transparent z-50 backdrop-blur-md top-0">
+            <div className="container mx-auto">
+                <ul className="flex gap-4">
+                    <Link href="/" className="font-semibold">Home</Link>
+                    <Link href="/" className="font-semibold">Projects</Link>
+                </ul>
+                {/* {renderThemeChanger()} */}
+            </div>
+        </nav>
+
     )
 }
  

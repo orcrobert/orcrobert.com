@@ -25,7 +25,7 @@ const Description = () => {
     }, [isTimelineVisible]);
 
     return (
-        <>
+        <div>
             <div class="w-96 flex justify-between w-full">
                 <div className="md:flex">
                     <div>
@@ -33,7 +33,7 @@ const Description = () => {
                         from-teal-500 via-purple-500 to-orange-500 
                         bg-clip-text text-transparent text-6xl font-extrabold antialiased
                         drop-shadow-lg shadow-transparent">
-                            Hello There<br />Traveler! <br /> I'm Robert
+                            Hello There Traveler! <br /> I'm Robert
                         </h1>
                     </div>
                     <div className='flex'>
@@ -44,14 +44,12 @@ const Description = () => {
                 </div>
 
             </div>
-            <div className='pt-6'>
+            <div className='pt-6 sm:flex sm:justify-center'>
                 <p className="indent-4 antialiased">
                     I'm currently a Computer Science student at UBB.
                     I have always enjoyed solving problems and since I have
                     been introduced to programming I have been obsessed with creating useful and
-                    aesthetic pieces of software. Endlessly trying to perfect myself and my
-                    knowledge in this field. For me, developing has always been a passion and
-                    I always get excited when I learn about a new technology.
+                    aesthetic software. ma ta
                 </p>
             </div>
             <button onClick={() => setIsTimelineVisible(!isTimelineVisible)}
@@ -132,6 +130,7 @@ const Description = () => {
                                     2019 & 2020
                                 </h3>
                             </div>
+
                             <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
 
                                 <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
@@ -195,7 +194,7 @@ const Description = () => {
 
                                 <div class="grow p-2 pb-8">
                                     <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-                                        Basics of Linux 👾
+                                        Basics of Linux. 👾
                                     </h3>
                                     <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
                                         Becomed a Hackerman.
@@ -220,11 +219,52 @@ const Description = () => {
                                     </p>
                                 </div>
                             </div>
+
+                            <div class="ps-2 my-2 first:mt-0">
+                                <h3 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400">
+                                    2021
+                                </h3>
+                            </div>
+
+                            <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+
+                                <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
+                                    <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-gray-800 dark:border-gray-600"></div>
+                                    </div>
+                                </div>
+
+                                <div class="grow p-2 pb-8">
+                                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Web Design.
+                                    </h3>
+                                    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                                        Learned Javascript in-depth and experimented with ReactJS and NextJS. <br />
+                                        + TailwindCSS, ThreeJS, Framer Motion etc.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+
+                                <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
+                                    <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-gray-800 dark:border-gray-600"></div>
+                                    </div>
+                                </div>
+                                <div class="grow p-2 pb-8">
+                                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        SQL and C#.
+                                    </h3>
+                                    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                                        Created some WinForms applications with backend and a layered architecture.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 )}
             </AnimatePresence>
-        </>
+        </div>
     )
 }
 
