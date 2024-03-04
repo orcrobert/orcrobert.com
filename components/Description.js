@@ -67,11 +67,11 @@ const Description = () => {
                         animate="open"
                         exit="closed"
                         transition={{ duration: 0.5 }}
-                        className={`pt-12 flex justify-center`}
+                        className={`pt-8 flex justify-center`}
                     >
                         <div>
                             <div class="ps-2 my-2 first:mt-0">
-                                <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
+                                <h3 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400">
                                     2018
                                 </h3>
                             </div>
@@ -128,7 +128,7 @@ const Description = () => {
                             </div>
 
                             <div class="ps-2 my-2 first:mt-0">
-                                <h3 class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
+                                <h3 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400">
                                     2019 & 2020
                                 </h3>
                             </div>
