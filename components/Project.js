@@ -45,14 +45,11 @@ const Project = (props) =>{
                 <Modal.Body>
                 <Text id="modal-description" className="text-zinc-800 dark:text-zinc-100">
                     <h1 className="text-l">
-                        Stack:
+                        Stack: <h2 className="font-bold">NextJS, TailwindCSS, Binance API, TypeScript</h2>
                     </h1>
                 </Text>
                 </Modal.Body>
                 <Modal.Footer>
-                <Button auto flat onPress={() => setVisible(false)}>
-                    Close
-                </Button>
                 </Modal.Footer>
                 <Modal.Header>
                 <Text id="modal-title" size={18}>
@@ -61,59 +58,12 @@ const Project = (props) =>{
                 </Modal.Header>
                 <Modal.Body>
                 <Text id="modal-description">
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                    ac consectetur ac, vestibulum at eros. Praesent commodo cursus
-                    magna, vel scelerisque nisl consectetur et. Cras mattis consectetur
-                    purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in,
-                    egestas eget quam. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Praesent commodo cursus magna, vel scelerisque
-                    nisl consectetur et. Cras mattis consectetur purus sit amet
-                    fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget
-                    quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                    ac consectetur ac, vestibulum at eros. Praesent commodo cursus
-                    magna, vel scelerisque nisl consectetur et. Cras mattis consectetur
-                    purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in,
-                    egestas eget quam. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Praesent commodo cursus magna, vel scelerisque
-                    nisl consectetur et. Cras mattis consectetur purus sit amet
-                    fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget
-                    quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                    ac consectetur ac, vestibulum at eros. Praesent commodo cursus
-                    magna, vel scelerisque nisl consectetur et. Cras mattis consectetur
-                    purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in,
-                    egestas eget quam. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Praesent commodo cursus magna, vel scelerisque
-                    nisl consectetur et. Cras mattis consectetur purus sit amet
-                    fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget
-                    quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                    ac consectetur ac, vestibulum at eros. Praesent commodo cursus
-                    magna, vel scelerisque nisl consectetur et. Cras mattis consectetur
-                    purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in,
-                    egestas eget quam. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Praesent commodo cursus magna, vel scelerisque
-                    nisl consectetur et. Cras mattis consectetur purus sit amet
-                    fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget
-                    quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cras mattis consectetur purus sit amet fermentum.
+                    ====================================================
                 </Text>
                 </Modal.Body>
                 <Modal.Footer>
-                <Button auto flat color="error" onPress={() => setVisible(false)}>
-                    Close
-                </Button>
                 <Button auto onPress={() => setVisible(false)}>
-                    Agree
+                    Close
                 </Button>
                 </Modal.Footer>
             </Modal>

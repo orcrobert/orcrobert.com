@@ -49,7 +49,7 @@ const Description = () => {
                     I'm currently a Computer Science student at UBB.
                     I have always enjoyed solving problems and since I have
                     been introduced to programming I have been obsessed with creating useful and
-                    aesthetic software. ma ta
+                    aesthetic software. ma ta e batrina
                 </p>
             </div>
             <button onClick={() => setIsTimelineVisible(!isTimelineVisible)}

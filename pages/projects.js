@@ -12,7 +12,7 @@ const Projects = () =>{
                     description={"An app to track digital coins prices build using Binance API."}
                     name={"crypto"}
                     link={"https://github.com/CyberNinjaH/crypto-tracker"}
-                 />
+                />
                 <Project title={"This Website 🚀"} image={"https://i.imgur.com/qpn5xXh.png"}
                     description={"My minimalistic and modern corner of the internet."}
                     name={"pwebsite"} 
