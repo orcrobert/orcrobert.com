@@ -59,7 +59,7 @@ const Header = () => {
         }
     }
     return ( 
-        <header className="h-16 flex items-center justify-between bg-transparent z-50 backdrop-blur-md top-0">
+        <header className="h-16 flex items-center justify-between  top-0">
             <ul className="flex gap-4">
                 <li><Link href="/" className="font-semibold">Home</Link></li>
                 <li><Link href="projects" className="font-semibold">Projects</Link></li>

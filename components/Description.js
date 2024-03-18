@@ -33,7 +33,7 @@ const Description = () => {
                         from-teal-500 via-purple-500 to-orange-500 
                         bg-clip-text text-transparent text-6xl font-extrabold antialiased
                         drop-shadow-lg shadow-transparent">
-                            Hello There Traveler! <br /> I'm Robert
+                            Welcome to my website! <br /> I'm Robert
                         </h1>
                     </div>
                     <div className='flex'>
