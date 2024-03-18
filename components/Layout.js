@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
                 <meta name="robots" content="index, follow"></meta>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
                 <meta name="language" content="English"></meta>
+                <link rel="icon" href="https://i.imgur.com/jF9wiw2.png" />
             </Head>
             <div className="min-h-screen flex flex-col">
                 <Header />

@@ -46,14 +46,10 @@ const Description = () => {
             </div>
             <div className='pt-6 sm:flex sm:justify-center'>
                 <p className="indent-4 antialiased">
-                    I'm currently a Computer Science student at UBB.
-                    I have always enjoyed solving problems and since I have
-                    been introduced to programming I have been obsessed with creating useful and
-                    aesthetic software. ma ta e batrina
-                </p>
+                Hey there, welcome to my software development portfolio! I'm a Computer Science student at UBB who gets a kick out of solving tricky problems and making software that not only works like a charm but also looks good doing it. Ever since I got hooked on programming, I've been on a mission to bring a bit of personality into my code – because why should it be all serious, right?                </p>
             </div>
             <button onClick={() => setIsTimelineVisible(!isTimelineVisible)}
-                className='font-bold pt-3'>
+                className='font-bold pt-5'>
                     My Timeline
             </button>
             <AnimatePresence>
