@@ -33,7 +33,7 @@ const Description = () => {
                         from-teal-500 via-purple-500 to-orange-500 
                         bg-clip-text text-transparent text-6xl font-extrabold antialiased
                         drop-shadow-lg shadow-transparent">
-                            Welcome to my website! <br /> I'm Robert
+                            Hello there traveller! <br /> I'm Robert
                         </h1>
                     </div>
                     <div className='flex'>
@@ -46,11 +46,22 @@ const Description = () => {
             </div>
             <div className='pt-6 sm:flex sm:justify-center'>
                 <p className="indent-4 antialiased">
-                Hey there, welcome to my software development portfolio! I'm a Computer Science student at UBB who gets a kick out of solving tricky problems and making software that not only works like a charm but also looks good doing it. Ever since I got hooked on programming, I've been on a mission to bring a bit of personality into my code – because why should it be all serious, right?                </p>
+                    I'm a Computer Science student at UBB (english section) who gets a kick out of solving tricky problems and making software that not only works like a charm but also looks good doing it. Ever since I got hooked on programming, I've been on a mission to bring a bit of personality into my code.
+                </p>
+            </div>
+            <div className='pt-2 sm:flex sm:justify-center'>
+                <p className="indent-4 antialiased">
+                    As for more personal stuff, I'm into very aggressive metal music, motorcycles, philosophy and trying to optimize every aspect of my existence.
+                    You can find out more by navigating to some of the links above.
+                </p>
+            </div>
+            <div className='pt-3 sm:flex'>
+                <h1 className="font-semibold">View my programming timeline </h1>
+                <h1 className='text-2xl	'>⇙</h1>
             </div>
             <button onClick={() => setIsTimelineVisible(!isTimelineVisible)}
-                className='font-bold pt-5'>
-                    My Timeline
+                    className='font-black'>
+                {isTimelineVisible ? '• Hide Timeline •' : '• Show Timeline •'}
             </button>
             <AnimatePresence>
                 {isTimelineVisible && (
@@ -79,7 +90,7 @@ const Description = () => {
 
                                 <div class="grow p-2 pb-8">
                                     <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-                                        Wrote my first C# program, a simple calculator. 🧮
+                                        Wrote my first C# program, a simple calculator.
                                     </h3>
                                     <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
                                         This was the first time I was introduced to programming.
@@ -190,7 +201,7 @@ const Description = () => {
 
                                 <div class="grow p-2 pb-8">
                                     <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
-                                        Basics of Linux. 👾
+                                        Basics of Linux.
                                     </h3>
                                     <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
                                         Becomed a Hackerman.
@@ -240,6 +251,7 @@ const Description = () => {
                                     </p>
                                 </div>
                             </div>
+
                             <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
 
                                 <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
@@ -253,6 +265,54 @@ const Description = () => {
                                     </h3>
                                     <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
                                         Created some WinForms applications with backend and a layered architecture.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="ps-2 my-2 first:mt-0">
+                                <h3 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400">
+                                    2022
+                                </h3>
+                            </div>
+
+                            <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+
+                                <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
+                                    <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-gray-800 dark:border-gray-600"></div>
+                                    </div>
+                                </div>
+
+                                <div class="grow p-2 pb-8">
+                                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Degenerate Era.
+                                    </h3>
+                                    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                                        I have no idea what I'm doing.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="ps-2 my-2 first:mt-0">
+                                <h3 class="text-xs font-bold uppercase text-gray-500 dark:text-gray-400">
+                                    2023 - early 2024
+                                </h3>
+                            </div>
+
+                            <div class="flex gap-x-3 relative group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+
+                                <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700 dark:group-hover:after:bg-gray-600">
+                                    <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-gray-800 dark:border-gray-600"></div>
+                                    </div>
+                                </div>
+
+                                <div class="grow p-2 pb-8">
+                                    <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Preparing for exams.
+                                    </h3>
+                                    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                                        ...
                                     </p>
                                 </div>
                             </div>

@@ -13,6 +13,18 @@ const Projects = () =>{
                     name={"crypto"}
                     link={"https://github.com/CyberNinjaH/crypto-tracker"}
                 />
+                <Project title={"WBlock 🗝️"}
+                    image={"https://i.imgur.com/CTHeTae.png"}
+                    description={"Script that blocks access to unwanted websites."}
+                    name={"wblock"}
+                    link={"https://github.com/orcrobert/wblock"}
+                />
+                <Project title={"Gomoku 🎲"}
+                    image={"https://github.com/orcrobert/gomoku/raw/main/gomokuwindow.png"}
+                    description={"Gomoku game, with AI opponent."}
+                    name={"gomoku"}
+                    link={"https://github.com/orcrobert/gomoku"}
+                />
                 <Project title={"This Website 🚀"} image={"https://i.imgur.com/qpn5xXh.png"}
                     description={"My minimalistic and modern corner of the internet."}
                     name={"pwebsite"} 
@@ -29,6 +41,7 @@ const Projects = () =>{
                     name={"snake"}
                     description={"The classic snake game written in python."}
                     link={"https://github.com/CyberNinjaH/snake-game"}/>
+                
             </div>
         </div>
     )
