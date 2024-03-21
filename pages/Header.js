@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Button from "../components/Button";
 import { motion } from "framer-motion";
+import NotFoundPage from "./404";
 
 const Header = () => {
 
@@ -63,7 +64,7 @@ const Header = () => {
             <ul className="flex gap-4">
                 <li><Link href="/" className="font-semibold">Home</Link></li>
                 <li><Link href="projects" className="font-semibold">Projects</Link></li>
-                <li><Link href="/" className="font-semibold">About</Link></li>
+                <li><Link href="404" className="font-semibold">About</Link></li>
             </ul>
             {renderThemeChanger()}
         </header>
