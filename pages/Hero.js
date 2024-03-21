@@ -50,12 +50,12 @@ const Hero = () => {
                     <p className="text-sm sm:text-base">I'm a developer based in Romania!</p>
                 </div>
                 <div className="pt-3 font-semibold grid grid-cols-2 sm:grid-cols-2 divide-x sm:divide-y gap-2 sm:gap-6">
-                    <Button size="md" auto color="success" id="hire">
-                        <h4 className="text-zinc-100 font-bold">View CV</h4>
-                    </Button>
-                    <Button size="md" auto color="primary" id="contact">
-                        <h4 className="text-zinc-100 font-bold">Write me</h4>
-                    </Button>
+                <Button size="md" auto color="success" id="hire">
+                    <h4 className="text-zinc-100 font-bold">View CV</h4>
+                </Button>
+                <Button size="md" auto color="primary" id="contact">
+                    <h4 className="text-zinc-100 font-bold">Write me</h4>
+                </Button>
                 </div>
             </div>
         </div>

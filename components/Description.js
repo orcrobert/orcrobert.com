@@ -40,7 +40,7 @@ const Description = () => {
                 </div>
             </div>
 
-            <h1 className="font-bold text-2xl tracking-tight antialiased
+            <h1 className="font-bold text-xl tracking-tight antialiased
             underline decoration-dashed underline-offset-2">Quick Intro</h1>
 
             <div className="pt-2 sm:flex sm:justify-center">
@@ -57,6 +57,9 @@ const Description = () => {
             </div>
 
             <SkillsComponent />
+
+            <h1 className="font-bold text-xl tracking-tight antialiased
+            underline decoration-dashed underline-offset-2">Timeline</h1>
 
             <div className="pt-3 flex flex-col items-center sm:flex-row sm:justify-center">
                 <button onClick={() => setIsTimelineVisible(!isTimelineVisible)} className="font-black mb-2 sm:mb-0 sm:mr-2">
