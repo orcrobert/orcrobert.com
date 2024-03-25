@@ -39,25 +39,25 @@ const Project = (props) =>{
             >
                 <Modal.Header>
                 <Text id="modal-title" size={18} className="text-zinc-800 dark:text-zinc-100">
-                    <header className="font-bold text-xl">Crypto Tracker 💎</header>
+                    <header className="font-bold text-xl">{props.title}</header>
                 </Text>
                 </Modal.Header>
                 <Modal.Body>
                 <Text id="modal-description" className="text-zinc-800 dark:text-zinc-100">
                     <h1 className="text-l">
-                        Stack: <h2 className="font-bold">NextJS, TailwindCSS, Binance API, TypeScript</h2>
+                        Stack: <h2 className="font-bold">todo</h2>
                     </h1>
                 </Text>
                 </Modal.Body>
                 <Modal.Footer>
                 </Modal.Footer>
                 <Modal.Header>
-                <Text id="modal-title" size={18}>
-                    Modal with a lot of content
+                <Text id="modal-title" size={18} className="text-zinc-800 dark:text-zinc-100">
+                    todo
                 </Text>
                 </Modal.Header>
                 <Modal.Body>
-                <Text id="modal-description">
+                <Text id="modal-description" className="text-zinc-800 dark:text-zinc-100">
                     ====================================================
                 </Text>
                 </Modal.Body>

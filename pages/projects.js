@@ -25,7 +25,7 @@ const Projects = () =>{
                     name={"gomoku"}
                     link={"https://github.com/orcrobert/gomoku"}
                 />
-                <Project title={"This Website 🚀"} image={"https://i.imgur.com/qpn5xXh.png"}
+                <Project title={"This Website 🚀"} image={"https://camo.githubusercontent.com/d7c2835afb662362f6880cfad570720e9c84e4863304be2955f845a55398abdc/68747470733a2f2f692e696d6775722e636f6d2f3831324e4434642e706e67"}
                     description={"My minimalistic and modern corner of the internet."}
                     name={"pwebsite"} 
                     link={"https://github.com/CyberNinjaH/portifolio-website"}/>

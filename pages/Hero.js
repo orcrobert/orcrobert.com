@@ -1,4 +1,4 @@
-import { Avatar, Badge, Button } from "@nextui-org/react";
+import { Avatar, Badge, Button, Link } from "@nextui-org/react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -10,6 +10,13 @@ const Hero = () => {
     useEffect(() => {
         setMounted(true);
     }, []);
+
+    const handleViewCVClick = () => {
+        window.location.href = "https://drive.google.com/file/d/1yUVIh5Yg2oxZmNwT7THREwfbsctK6Flo/view";
+    };
+    const handleWriteMeClick = () => {
+        window.location.href = "mailto:robyorban@gmail.com";
+    };
 
     const Badgecolor = () => {
         if (!mounted) return null;
@@ -50,16 +57,16 @@ const Hero = () => {
                     <p className="text-sm sm:text-base">I'm a developer based in Romania!</p>
                 </div>
                 <div className="pt-3 font-semibold grid grid-cols-2 sm:grid-cols-2 divide-x sm:divide-y gap-2 sm:gap-6">
-                <Button size="md" auto color="success" id="hire">
-                    <h4 className="text-zinc-100 font-bold">View CV</h4>
-                </Button>
-                <Button size="md" auto color="primary" id="contact">
-                    <h4 className="text-zinc-100 font-bold">Write me</h4>
-                </Button>
+                    <Button size="md" auto color="success" id="hire" onClick={handleViewCVClick}>
+                        <h4 className="text-zinc-100 font-bold">View CV</h4>
+                    </Button>
+                    <Button size="md" auto color="primary" id="contact" onClick={handleWriteMeClick}>
+                        <h4 className="text-zinc-100 font-bold">Write me</h4>
+                    </Button>
                 </div>
             </div>
         </div>
     )
 }
- 
+
 export default Hero;
