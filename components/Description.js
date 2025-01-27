@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { dark_av } from '../public/images/memoji_dark.png';
-import { light_av } from '../public/images/memoji_light.png';
 import Timeline from './Timeline';
 import SkillsComponent from './Skills';
 
@@ -15,7 +13,10 @@ const Description = () => {
 
     useEffect(() => {
         if (isTimelineVisible) {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            window.scrollTo({ 
+                top: document.body.scrollHeight / 3, 
+                behavior: 'smooth' 
+            });
         } else {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -31,7 +32,7 @@ const Description = () => {
                 </div>
                 <div className="flex justify-center md:justify-end mt-4 md:mt-0">
                     <motion.img
-                        src="https://imgur.com/pEZtFpC.png"
+                        src="/images/meditate.png"
                         alt="avatar"
                         className="max-w-xs max-h-xs"
                         animate={{ rotate: 360 }}

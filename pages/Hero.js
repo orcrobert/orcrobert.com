@@ -12,7 +12,7 @@ const Hero = () => {
     }, []);
 
     const handleViewCVClick = () => {
-        window.location.href = "https://drive.google.com/file/d/1yUVIh5Yg2oxZmNwT7THREwfbsctK6Flo/view";
+        window.location.href = "https://drive.google.com/file/d/1GXRc_yRcW72wQ9llxh1liuiXO2Xqs3z1/view?usp=drive_link";
     };
     const handleWriteMeClick = () => {
         window.location.href = "mailto:robyorban@gmail.com";
@@ -30,7 +30,7 @@ const Hero = () => {
                 <Avatar
                     squared
                     size="md"
-                    src="https://i.imgur.com/RuuEpPG.png"
+                    src="/images/avatar.png"
                     alt="profile-pic"
                 />
             </Badge>
@@ -61,7 +61,7 @@ const Hero = () => {
                         <h4 className="text-zinc-100 font-bold">View CV</h4>
                     </Button>
                     <Button size="md" auto color="primary" id="contact" onClick={handleWriteMeClick}>
-                        <h4 className="text-zinc-100 font-bold">Write me</h4>
+                        <h4 className="text-zinc-100 font-bold">Email me</h4>
                     </Button>
                 </div>
             </div>

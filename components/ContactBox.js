@@ -58,7 +58,7 @@ const ContactBox = () => {
                         </ul>
                         <ul className="flex gap-12 pt-3">
                             <li>
-                                <Link href={"https://drive.google.com/file/d/1yUVIh5Yg2oxZmNwT7THREwfbsctK6Flo/view"} className="flex gap-1">
+                                <Link href={"https://drive.google.com/file/d/1GXRc_yRcW72wQ9llxh1liuiXO2Xqs3z1/view?usp=drive_link"} className="flex gap-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                         <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
                                         <path fillRule="evenodd" d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z" clipRule="evenodd" />
@@ -73,14 +73,15 @@ const ContactBox = () => {
                                 </Link>
                             </li>
                         </ul>
-                        <ul className="flex gap-8 pt-3">
+                        <ul className="flex gap-7 pt-3">
                             <li>
                                 <Link href={"/"} onClick={handleEmailClick} className="flex gap-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="currentColor" viewBox="0 0 32 32"><g data-name="7-Email-Arrow up"><path d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h13v-2H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23V17h2V7a3 3 0 0 0-3-3zM16 14.77 3.72 6h24.56z" /><path d="m24.29 18.29-4 4 1.41 1.41 2.3-2.29V29h2v-7.59l2.29 2.29 1.41-1.41-4-4a1 1 0 0 0-1.41 0z" /></g></svg>                                    Email
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="currentColor" viewBox="0 0 32 32"><g data-name="7-Email-Arrow up"><path d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h13v-2H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23V17h2V7a3 3 0 0 0-3-3zM16 14.77 3.72 6h24.56z" /><path d="m24.29 18.29-4 4 1.41 1.41 2.3-2.29V29h2v-7.59l2.29 2.29 1.41-1.41-4-4a1 1 0 0 0-1.41 0z" /></g></svg>                                    
+                                    Email
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"https://www.linkedin.com/in/orban-robert-98b805118/"} className="flex gap-1">
+                                <Link href={"https://www.linkedin.com/in/orban-robert-98b805118/"} className="flex gap-1 px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 50 50">
                                     <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
                                 </svg>                                    

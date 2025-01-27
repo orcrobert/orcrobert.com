@@ -34,6 +34,7 @@ const Project = (props) =>{
                 aria-labelledby="modal-title"
                 aria-describedby="modal-description"
                 {...bindings}
+                blur
                 className="bg-zinc-200 dark:bg-zinc-800
                 text-zinc-800 dark:text-zinc-100"
             >
@@ -45,7 +46,7 @@ const Project = (props) =>{
                 <Modal.Body>
                 <Text id="modal-description" className="text-zinc-800 dark:text-zinc-100">
                     <h1 className="text-l">
-                        Stack: <h2 className="font-bold">todo</h2>
+                        Stack: <h2 className="font-bold">{props.stack}</h2>
                     </h1>
                 </Text>
                 </Modal.Body>
