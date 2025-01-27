@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
                 <title>Orban Robert</title>
                 <meta charset="UTF-8"></meta>
                 <meta name="title" content="Orban Robert - Software Developer"></meta>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content="My personal website and portifolio."></meta>
                 <meta name="keywords" content="robert,orban, developer, front-end, programmer, portifolio, nextjs, react, tailwind"></meta>
                 <meta name="robots" content="index, follow"></meta>

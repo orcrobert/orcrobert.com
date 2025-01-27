@@ -1,6 +1,7 @@
 
 const Meta = () => {
     <>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="title" content="Orban Robert - Software Developer"></meta>
         <meta name="description" content="My personal website and portifolio."></meta>
         <meta name="keywords" content="developer, front-end, programmer, portifolio, nextjs, react, tailwind, hire"></meta>
