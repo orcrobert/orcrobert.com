@@ -29,7 +29,7 @@ const ContactBox = () => {
             <ToastContainer />
             <div className="justify-center flex pt-8 lg:pt-0">
                 <div className="rounded-lg h-auto w-64 p-4 bg-gray-200 dark:bg-zinc-800 
-                shadow-md hover:transition hover:ease-in-out hover:delay-75 hover:scale-105
+                shadow-md md:hover:transition md:hover:ease-in-out md:hover:delay-75 md:hover:scale-105
                 sm:items-center sm:justify-center">
                     <div className="pb-2 flex gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 relative pt-1">

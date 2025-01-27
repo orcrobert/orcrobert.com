@@ -19,7 +19,7 @@ const SkillsComponent = () => {
             underline decoration-dashed underline-offset-2 mb-4">My Skills</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4">
                 {skills.map((skill, index) => (
-                    <div key={index} className="bg-gray-200 dark:bg-zinc-800 rounded-lg p-4 transform transition-transform hover:scale-110">
+                    <div key={index} className="bg-gray-200 dark:bg-zinc-800 rounded-lg p-4 transform transition-transform md:hover:scale-110">
                         <div className="flex items-center gap-3"> {/* Using flexbox to align items */}
                             <h2 className="text-md font-semibold">{skill.name}</h2>
                             <img src={skill.link} alt={skill.name} className="w-5 h-5" />

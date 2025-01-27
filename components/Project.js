@@ -6,7 +6,7 @@ const Project = (props) =>{
     const { setVisible, bindings } = useModal();
     return (
         <div className="rounded-lg bg-gray-200 dark:bg-zinc-800 shadow-lg h-48
-        relative hover:scale-105 hover:transition hover:ease-in-out hover:delay dark:text-zinc-200">
+        relative md:hover:scale-105 md:hover:transition md:hover:ease-in-out md:hover:delay dark:text-zinc-200">
             <section className="flex top-2 left-56 absolute">
                 <h1 className="font-bold text-2xl">{props.title}</h1>
             </section>

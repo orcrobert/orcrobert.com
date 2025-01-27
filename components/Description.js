@@ -12,9 +12,16 @@ const Description = () => {
     };
 
     useEffect(() => {
+        let topValue;
+
+        if (window.innerWidth >= 1024) {
+            topValue = document.body.scrollHeight / 2;
+        } else {
+            topValue = document.body.scrollHeight / 1.5;
+        }
         if (isTimelineVisible) {
             window.scrollTo({ 
-                top: document.body.scrollHeight / 3, 
+                top: topValue, 
                 behavior: 'smooth' 
             });
         } else {
