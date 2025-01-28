@@ -3,7 +3,7 @@ import Project from "../components/Project"
 
 const Projects = () =>{
     return (
-        <div>
+        <div className="overflow-x-hidden px-4">
             <h1 className="font-bold text-3xl tracking-tight antialiased
             underline decoration-dashed underline-offset-4">Projects</h1>
             <div className="grid grid-cols-1 pt-10 gap-5">
