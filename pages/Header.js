@@ -23,7 +23,8 @@ const Header = () => {
         if (currTheme === 'light') {
             return (
                 <Button className={"bg-gray-200 shadow-sm opacity-75"} onClick={() => setTheme('dark')}
-                    id="theme-changer">
+                    id="theme-changer"
+                    >
                     <motion.svg whileHover={{
                         position: 'relative',
                         zIndex: 1,

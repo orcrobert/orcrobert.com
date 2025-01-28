@@ -42,10 +42,11 @@ const Hero = () => {
         <div className="relative group">
             <div
                 className="
-          h-auto w-full md:w-96 p-4 absolute inset-0
-          bg-pink-400 dark:bg-purple-800 blur-xl transition ease-in-out
-          md:hover:delay-75 md:group-hover:blur-3xl md:group-hover:scale-105
-        "
+                h-auto w-full md:w-96 p-4 absolute inset-0
+                bg-pink-400 dark:bg-purple-800 blur-xl transition ease-in-out
+                md:hover:delay-75 md:group-hover:blur-3xl md:group-hover:scale-105
+                "
+                style={{ willChange: "filter, transform, background-color" }}
             ></div>
             <div
                 className="
@@ -53,6 +54,7 @@ const Hero = () => {
           shadow-md relative md:hover:transition md:hover:ease-in-out md:hover:delay-75
           md:hover:scale-105 dark:text-zinc-100
         "
+        style={{ willChange: "filter, transform" }}
             >
                 <div className="flex items-center">
                     {Badgecolor()}

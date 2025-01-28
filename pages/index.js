@@ -3,6 +3,7 @@ import React from "react";
 import ContactBox from "../components/ContactBox";
 import Description from "../components/Description";
 import Link from "next/link";
+import TypingTerminal from "@/components/TypingTerminal";
 
 export default function Home() {
   return (

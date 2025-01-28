@@ -35,7 +35,7 @@ const Project = (props) =>{
                 aria-describedby="modal-description"
                 {...bindings}
                 blur
-                className="bg-zinc-200 dark:bg-zinc-800
+                className="bg-zinc-200 dark:bg-zinc-900
                 text-zinc-800 dark:text-zinc-100"
             >
                 <Modal.Header>
