@@ -71,7 +71,7 @@ const Hero = () => {
                 </div>
                 <div className="pt-5">
                     <p className="text-sm sm:text-base">
-                        I'm a developer based in Romania!
+                        I'm a developer from Romania!
                     </p>
                 </div>
                 <div className="pt-3 font-semibold grid grid-cols-2 sm:grid-cols-2 divide-x sm:divide-y gap-2 sm:gap-6">
