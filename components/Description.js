@@ -33,7 +33,6 @@ const Description = () => {
         <div className="container mx-auto">
             <div className="md:flex md:justify-between">
                 <div>
-                    <h1 className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-4xl sm:text-6xl font-extrabold antialiased drop-shadow-lg shadow-transparent text-center sm:text-left'>TESTSTSTSTSTSTSTSTSTSTSTS</h1>
                     <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-4xl sm:text-6xl font-extrabold antialiased drop-shadow-lg shadow-transparent text-center sm:text-left">
                         Hello there traveller! I'm Robert
                     </h1>
